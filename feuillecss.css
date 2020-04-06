@@ -1,0 +1,159 @@
+body{
+  margin-left: 15px;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.conteneur
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header{
+  width: 100vw;
+  display:flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-top: 15px;
+  font-family: arial;
+  font-size: 13px;
+}
+
+header div a{
+  margin-left:10px;
+  text-decoration: none;
+  color: black;
+}
+
+header div{
+  display: inline-flex;
+  align-items: center;
+}
+
+div.main_logo {
+  display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+form{
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input.Search{
+    width: 100%;
+    height: 37px;
+    border-radius : 40px;
+    border: 1px solid #e0e0e0;
+    font-size: 20px;
+    color: grey;
+    font-family: Arial;
+    text-indent: 50px;
+}
+
+form input:hover{
+border: 3px solid #ddd;
+opacity: 0.3;
+}
+
+form div.loupe{
+display:block;
+width:24px;
+height:24px;
+float:left;
+margin:0
+}
+
+/* border-radius sert à arrondir les angles d'un élément et text-indent à effectuer un retrait du texte */
+
+.button{
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.button button{
+  font-family: Arial;
+  font-size: 14px;
+  width: 140px;
+  height: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  background-color: #f7f7f7;
+  color: grey;
+  border-radius : 5px;
+  border:1px solid d4f4d4;
+}
+
+div button a{
+  text-decoration: none;
+  color: grey;
+}
+
+.button button:hover{
+    border: 1px solid #ccc;
+}
+
+/* la balise hover est utile quand on souhaite donner
+un effet à un élément : ici, quand la souris passe sur le bouton,
+ce dernier ressort */
+
+.gestes img{
+  width: 40px;
+  height: 40px;
+}
+
+div.gestes{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 110px;
+}
+
+div.gestes img{
+  margin-right: 10px;
+}
+
+div.gestes a{
+  font-family: Arial;
+  font-size: 13px;
+}
+
+footer{
+  background-color: #f2f2f2;
+  width: 102vw;
+  height: 12vh;
+  color: grey;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+    text-indent: 15px;
+    font-family: Arial;
+    color: grey;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+footer div a{
+  font-family: arial;
+  color: grey;
+  text-decoration:none;
+  margin-left: 15px;
+}
+
+footer div span{
+  font-family: arial;
+  color: grey;
+  text-decoration:none;
+  margin-left: 1105px;
+}
